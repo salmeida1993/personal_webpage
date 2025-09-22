@@ -1,6 +1,8 @@
 # personal_webpage
 
-https://salmeida1993.github.io/personal_webpage/homepage/
+[Link to webpage](https://salmeida1993.github.io/personal_webpage/homepage/)
+
+[Demo overview](https://youtu.be/soM3cvVdoXw)
 
 An initial take on my personal webpage
 
