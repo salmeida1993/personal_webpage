@@ -4,6 +4,8 @@
 
 [Demo overview](https://youtu.be/soM3cvVdoXw)
 
+[Slide Presentation](https://docs.google.com/presentation/d/1V1ubSAVj84-USzV_cdJLvQZXZetwbIaCsRVXVrChu-0/edit?usp=sharing)
+
 An initial take on my personal webpage
 
 <img width="2513" height="1078" alt="webpage_screenshot" src="https://github.com/user-attachments/assets/2f4a1ade-c7b6-4e9d-88b6-f1b31154b12b" />
