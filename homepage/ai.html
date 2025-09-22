@@ -1,0 +1,337 @@
+<!--Copyright (c) 2025 Stewart Almeida
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files…
+ [or "Licensed under the MIT License - see LICENSE file for details"]
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stewart Almeida</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarLeft">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extra</a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="aboutthem.html">About Them</a></li>
+                            <li><a class="dropdown-item" aria-current="page" href="ai.html">Ai</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-nav ms-auto" id="navbarRight">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/salmeida1993" target="_blank">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/salmeida-20tp24/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="documents/MSCS_resume.pdf" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--To the top button-->
+    <button onclick="totheTop()" id="topButton" title="Up we go!" class="rounded">Top</button>
+
+    <!-- Skills Hero Section -->
+    <section class="skills-hero py-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h1 class="skills-hero-title mb-4">Technical Expertise & Leadership Skills</h1>
+                    <p class="skills-hero-subtitle">A comprehensive overview of my professional capabilities and technical proficiencies</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Overview Section -->
+    <section class="container py-5" id="skills-overview">
+        <div class="row">
+            <div class="col-12">
+                <div class="skills-head text-center mb-5">
+                    <h2 class="p-4">Skills Portfolio</h2>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Leadership & Management Skills -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <h3 class="skills-category-title mb-4">
+                    <i class="fas fa-users me-3"></i>Leadership & Management
+                </h3>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="skill-card leadership-card h-100">
+                    <div class="skill-card-header">
+                        <i class="fas fa-crown skill-icon"></i>
+                        <h4>Leadership</h4>
+                    </div>
+                    <div class="skill-card-body">
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress leadership-progress" data-width="90"></div>
+                            </div>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <p class="skill-description">
+                            Strategic vision, team inspiration, and decision-making capabilities across diverse organizational contexts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="skill-card teamwork-card h-100">
+                    <div class="skill-card-header">
+                        <i class="fas fa-handshake skill-icon"></i>
+                        <h4>Teamwork</h4>
+                    </div>
+                    <div class="skill-card-body">
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress teamwork-progress" data-width="95"></div>
+                            </div>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <p class="skill-description">
+                            Collaborative problem-solving, effective communication, and fostering inclusive team environments.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="skill-card personnel-card h-100">
+                    <div class="skill-card-header">
+                        <i class="fas fa-user-tie skill-icon"></i>
+                        <h4>Personnel Management</h4>
+                    </div>
+                    <div class="skill-card-body">
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress personnel-progress" data-width="85"></div>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <p class="skill-description">
+                            Talent development, performance optimization, and creating growth-oriented workplace cultures.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="skill-card project-card h-100">
+                    <div class="skill-card-header">
+                        <i class="fas fa-project-diagram skill-icon"></i>
+                        <h4>Project Management</h4>
+                    </div>
+                    <div class="skill-card-body">
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress project-progress" data-width="88"></div>
+                            </div>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <p class="skill-description">
+                            End-to-end project lifecycle management, resource allocation, and milestone achievement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Time Management -->
+        <div class="row mb-5">
+            <div class="col-lg-6 mx-auto">
+                <div class="skill-card time-card h-100">
+                    <div class="skill-card-header">
+                        <i class="fas fa-clock skill-icon"></i>
+                        <h4>Time Management</h4>
+                    </div>
+                    <div class="skill-card-body">
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress time-progress" data-width="92"></div>
+                            </div>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <p class="skill-description">
+                            Priority optimization, deadline management, and maximizing productivity through strategic planning.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <h3 class="skills-category-title mb-4">
+                    <i class="fas fa-code me-3"></i>Technical Proficiencies
+                </h3>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="skill-card python-card h-100">
+                    <div class="skill-card-header">
+                        <i class="fab fa-python skill-icon"></i>
+                        <h4>Python</h4>
+                    </div>
+                    <div class="skill-card-body">
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress python-progress" data-width="85"></div>
+                            </div>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <p class="skill-description">
+                            Data analysis, automation, web development, and machine learning implementations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="skill-card c-card h-100">
+                    <div class="skill-card-header">
+                        <i class="fas fa-terminal skill-icon"></i>
+                        <h4>C Programming</h4>
+                    </div>
+                    <div class="skill-card-body">
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress c-progress" data-width="80"></div>
+                            </div>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <p class="skill-description">
+                            System-level programming, memory management, and performance-critical application development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="skill-card html-card h-100">
+                    <div class="skill-card-header">
+                        <i class="fab fa-html5 skill-icon"></i>
+                        <h4>HTML5</h4>
+                    </div>
+                    <div class="skill-card-body">
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress html-progress" data-width="90"></div>
+                            </div>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <p class="skill-description">
+                            Modern web markup, semantic structure, and accessibility-focused development practices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-4">
+                <div class="skill-card css-card h-100">
+                    <div class="skill-card-header">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <h4>CSS3</h4>
+                    </div>
+                    <div class="skill-card-body">
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress css-progress" data-width="87"></div>
+                            </div>
+                            <span class="skill-percentage">87%</span>
+                        </div>
+                        <p class="skill-description">
+                            Responsive design, animations, flexbox/grid layouts, and modern styling methodologies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-4">
+                <div class="skill-card js-card h-100">
+                    <div class="skill-card-header">
+                        <i class="fab fa-js skill-icon"></i>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="skill-card-body">
+                        <div class="skill-level">
+                            <div class="skill-bar">
+                                <div class="skill-progress js-progress" data-width="82"></div>
+                            </div>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+                        <p class="skill-description">
+                            Interactive web applications, DOM manipulation, async programming, and modern ES6+ features.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Summary -->
+        <div class="row">
+            <div class="col-12">
+                <div class="skills-summary p-4">
+                    <h3 class="text-center mb-4">Professional Development Philosophy</h3>
+                    <p class="skills-summary-text">
+                        My skill set represents a balanced combination of technical expertise and leadership capabilities. 
+                        I believe in continuous learning and adaptation, staying current with emerging technologies while 
+                        leveraging proven management principles to drive team success. This dual focus enables me to bridge 
+                        the gap between technical implementation and strategic business objectives, making me effective in 
+                        both hands-on development roles and leadership positions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 Stewart Almeida. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script type="module" src="scripts/main.js"></script>
+    <script type="module" src="scripts/skills.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!--Copyright (c) 2025 Stewart Almeida
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files…
+ [or "Licensed under the MIT License - see LICENSE file for details"]
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stewart Almeida</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarLeft">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Extra</a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item active" aria-current="page" href="aboutthem.html">About Them</a></li>
+                            <li><a class="dropdown-item" href="ai.html">Ai</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar-nav ms-auto" id="navbarRight">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/salmeida1993" target="_blank">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/salmeida-20tp24/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="documents/MSCS_resume.pdf" target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--To the top button-->
+    <button onclick="totheTop()" id="topButton" title="Up we go!" class="rounded">Top</button>
+
+    <section class="container-fluid" id="fritto-container">
+        <div class="about-head col-2 mt-5 text-center">
+            <h2>Fritto</h2>
+        </div>
+        <section class="container mt-5">
+            <div class="row">
+                <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/fritto1.JPG" class="d-block w-100" alt="Picture 1 of Fritto">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/fritto2.JPG" class="d-block w-100" alt="Picture 2 of Fritto">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/fritto3.JPG" class="d-block w-100" alt="Picture 3 of Fritto">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="col carousel-text text-left rounded">
+                    <p>Orange Tabby, born in Hawaii...Fritto remains as ditzy and chill as he was when he was just a kitten.</p>
+                    <p>I first adopted him back in 2018 while I was stationed at Hickam Air Force Base,
+                        and the little guy's been traveling along with me ever since. While he hates car rides with a passion and can hardly stand flights, Fritto has probably traveled more in
+                        the past few years than most people do in their lifetimes. Never afraid of strangers (for better or worse), the second he meets someone new he'll be meowing along and wondering
+                        why you haven't given him any pets yet.
+                    </p>
+                    <p>While he can be pretty vocal when he wants to, he's usually just sunbathing or napping on the couch.</p>
+                </div>
+                </div>
+        </section>
+     </section>
+
+     <section class="container-fluid" id="lola-container">
+        <div class="about-head col-2 mt-5 text-center">
+            <h2>Lola</h2>
+        </div>
+        <section class="container mt-5">
+            <div class="row">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/lola1.jpg" class="d-block w-100" alt="Picture 1 of Lola">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/lola2.jpg" class="d-block w-100" alt="Picture 2 of Lola">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/lola3.jpg" class="d-block w-100" alt="Picture 3 of Lola">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="col carousel-text text-left rounded">
+                    <p>A relatively newer addition to the family, Lola is a Calico who, of the two, can be seen as the "scardy" cat.</p>
+                    <p>First adpoted back in 2022 while I was stationed in Arizona, Lola grew up with a viral strain that has permentantly affected her eyes - while the virus still affects her, it doesn't do much 
+                        to stop her from bring the snugglebug she is. Weary of strangers, she'll be the first to hide whenever someone new is in the area. Once she warms up to you 
+                        though, she'll constantly keep bugging you for attention and head scratches. 
+                    </p>
+                    <p>While normally quiet, her curiosity and energy make it hard to not notice her when she wants to play.</p>
+                </div>
+            </div>
+        </section>
+     </section>
+
+
+
+
+
+    <!-- Footer -->
+      <section class="container-fluid" id="footer">
+        <footer class="footer text-center text-lg-start mt-5">
+            <div class="text-center p-3">
+                © 2025 Stewart Almeida
+            </div>
+        </footer>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+      <script src="scripts/main.js"></script>
+</body>
+</html>
