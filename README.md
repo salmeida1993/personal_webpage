@@ -1,4 +1,7 @@
 # personal_webpage
+
+https://salmeida1993.github.io/personal_webpage/homepage/
+
 An initial take on my personal webpage
 
 Author: Stewart Almeida
