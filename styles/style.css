@@ -356,4 +356,27 @@ width: 50%;
     .skill-card {
         margin-bottom: 1rem;
     }
+
+}
+
+/* Added by Sourav */
+/* === Footer === */
+.site-footer {
+  background: #111;
+  color: #cfd3d7;
+  border-top: 1px solid #2a2a2a;
+}
+
+.site-footer a {
+  color: #cfd3d7;
+  text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer a:focus {
+  text-decoration: underline;
+}
+
+.site-footer .social .list-inline-item + .list-inline-item {
+  margin-left: 1rem;
 }
